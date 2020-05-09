@@ -8,6 +8,6 @@ data class TextItem(val text: String) : BindableItem<ItemTextBinding>(text.hashC
     override fun getLayout(): Int = R.layout.item_text
 
     override fun bind(viewBinding: ItemTextBinding, position: Int) {
-        viewBinding.textView.text = text
+        viewBinding.text = text
     }
 }

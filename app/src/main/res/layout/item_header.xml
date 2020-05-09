@@ -4,14 +4,14 @@
     <data>
         <variable
             name="header"
-            type="com.example.groupiesample.model.HeaderItem" />
+            type="String" />
     </data>
     
     <TextView
         android:id="@+id/headerView"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_margin="16dp"
-        android:text="@{header.text}"
+        android:layout_height="32dp"
+        android:layout_margin="8dp"
+        android:text="@{header}"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 </layout>

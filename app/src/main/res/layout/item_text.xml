@@ -4,14 +4,14 @@
     <data>
         <variable
             name="text"
-            type="com.example.groupiesample.model.TextItem" />
+            type="String" />
     </data>
-    
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="32dp"
-        android:layout_margin="16dp"
-        android:text="@{text.text}"
+        android:layout_margin="8dp"
+        android:text="@{text}"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 </layout>

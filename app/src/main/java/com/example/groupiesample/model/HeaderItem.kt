@@ -8,6 +8,6 @@ data class HeaderItem(val text: String) : BindableItem<ItemHeaderBinding>(text.h
     override fun getLayout(): Int = R.layout.item_header
 
     override fun bind(viewBinding: ItemHeaderBinding, position: Int) {
-        viewBinding.headerView.text = text
+        viewBinding.header = text
     }
 }
